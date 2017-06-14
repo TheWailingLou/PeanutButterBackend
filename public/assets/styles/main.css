@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #C0D1D5;
+}
+
+
+@font-face {
+  font-family: 'righteous';
+  src: url('./dependencies/Righteous/Righteous-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'days_one';
+  src: url('./dependencies/Days_One/DaysOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'play';
+  src: url('./dependencies/Play/Play-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'audiowide';
+  src: url('./dependencies/Audiowide/Audiowide-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./dependencies/Poppins/Poppins.ttf');
+}
+
+@font-face {
+  font-family: 'rockabilly';
+  src: url('./dependencies/Rockabilly/Rockabilly.ttf');
+}
+
+
+
+body {
+  font-family: righteous;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #222228, #222822);
+  height: 220vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: audiowide;
+}
+
+h3 {
+  font-family: play;
+}
+
+.taglineText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taglineText h3 {
+  font-family: play;
+  font-size: 30px;
+}
+
+
+nav {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #111511;
+}
+
+
+.nav_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_left, .nav_right {
+  width: 25vw;
+  height: 150px;
+}
+
+.nav_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 150px;
+}
+
+
+main {
+  display: flex;
+  height: 200vh;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.demo_image {
+  margin-top: 20px;
+  border: 1px solid #C0D1D5;
+  width: 60vw;
+}
+
+.create_tracks:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #22794E;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  background-color: #38C07C;
+}
+.create_tracks {
+  border: 2px solid #AF7E2D;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  color: #111115;
+  font-size: 30px;
+  font-family: audiowide;
+  background-color: #E7A53A;
+}
+
+.create_tracks h2, .create_tracks a {
+  color: #111115;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo {
+  height: 100px;
+}
